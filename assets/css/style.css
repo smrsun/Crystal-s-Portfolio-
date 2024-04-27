@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    background-size: auto;
+
+  }
+  
+  body {
+    font-family: Cambria, 'Times New Roman', serif;
+    margin: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, sans-serif;
+    background: #0b3c69;
+    color: #ffff
+  }
+  
+  .name {
+    margin: 5px;
+    padding: 10px;
+    font-size: 50px;
+  }
+
+  .topnav a {;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: Cambria, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffff
+  }
+
+  
