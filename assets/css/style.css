@@ -1,5 +1,5 @@
 * {
-  margin: 0%;
+  /* margin: 0%; */
   background-size: auto;
 }
 
@@ -53,24 +53,27 @@ body {
 section h1 {
   display: flex;
   flex-direction: row;
+  text-align:
   margin-top: 15px;
   margin-right: 25px;
   padding-right: 30px;
+  
   border-right: 5px solid rgb(57, 64, 66);
 }
 
-/* section div {
+section div {
   display: flex;
   align-items: center;
   align-content: center;
   margin-left: 20px;
   margin-right: 0px;
-} */
+}
 
 article img {
-  display: block;
-  max-width: 25%;
-  height: 25%;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
+  height: 50%;
   border: 2px;
   border-color: rgb(57, 64, 66);
 } 
