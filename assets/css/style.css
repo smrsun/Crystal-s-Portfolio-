@@ -46,6 +46,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-left: 40px;
+  margin-right: 10px;
   margin-top: 10px;
 }
 
@@ -85,13 +86,14 @@ article {
 
 article h3 {
   position: absolute;
-  display: inline-block;
+  display: inline;
  }
 
- article h4 {
+ /* article h4 {
   position: absolute;
   display:inline-flex;
- }
+  
+ } */
 
 #contactInfo nav {
   display: flex;
